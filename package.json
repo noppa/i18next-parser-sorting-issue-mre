@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init-translations": "i18next --config i18next-parser.config.js index.js",
+    "update-translations": "i18next --config i18next-parser.config.js index.js other.js"
   },
   "keywords": [],
   "author": "",
